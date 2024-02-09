@@ -8,6 +8,9 @@ if ((number >= 100) && (number < 1000))
     int figure2 = number % 100 / 10;
     int figure3 = number % 10;
     System.Console.WriteLine($"{figure1}{figure3}");
+    int sum = Convert.ToInt32(figure3) + 1;
+    System.Console.WriteLine(sum);
+
 }
 else
 {
